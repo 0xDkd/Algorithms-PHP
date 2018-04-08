@@ -23,5 +23,10 @@ function generateRandomArray( $n, $rangeL, $rangeR) {
 
 $a = generateRandomArray(1000,1,100000);
 
-var_dump($a);
+function swap($a,$b)
+{
+    $buffer = $a;
+    $a=$b;
+    $b=$buffer;
+}
 

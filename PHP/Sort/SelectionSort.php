@@ -5,7 +5,7 @@
  * Date: 2018/3/26
  * Time: 下午3:13
  */
-include_once 'makedata.php';
+include_once 'MakeData.php';
 /**
  *时间复杂度：O（n^2）
  *
